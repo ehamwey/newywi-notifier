@@ -3,7 +3,6 @@ import java.util.*;
 
 import javax.mail.*;
 import javax.mail.internet.*;
-
 public class Main{
 
     private static String USER_NAME = "newywinotifier";  // GMail user name (just the part before "@gmail.com")

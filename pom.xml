@@ -16,4 +16,13 @@
       </plugin>
     </plugins>
   </build>
+  <dependencies>
+  	<dependency>
+  		<groupId>mailnotifier</groupId>
+  		<artifactId>library</artifactId>
+  		<version>1.0</version>
+  		<systemPath>${project.basedir}javax.mail.jar</systemPath>
+  		<scope>system</scope>
+  	</dependency>
+  </dependencies>
 </project>

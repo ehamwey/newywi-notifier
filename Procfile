@@ -1,2 +1,1 @@
-web: java -jar target/newywi-notifier.jar
-queue: java -jar target/newywi-notifier.jar
+web: java -jar target/newywi-notifier-0.0.1-SNAPSHOT.jar

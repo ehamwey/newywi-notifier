@@ -1,21 +1,23 @@
 import java.util.*;
+
+
 import javax.mail.*;
 import javax.mail.internet.*;
 
-public class EmailHandler {
+public class Main{
 
     private static String USER_NAME = "newywinotifier";  // GMail user name (just the part before "@gmail.com")
-    private static String PASSWORD = "newayyouwantit40"; // GMail password
+    private static String key = "newayyouwantit40"; 
     private static String RECIPIENT = "studge360@gmail.com";
 
     public static void main(String[] args) {
         String from = USER_NAME;
-        String pass = PASSWORD;
+        String id = key;
         String[] to = { RECIPIENT }; // list of recipient email addresses
         String subject = "Java send mail example";
         String body = "Welcome to JavaMail!";
 
-        sendFromGMail(from, pass, to, subject, body);
+        sendFromGMail(from, id, to, subject, body);
     }
 
     private static void sendFromGMail(String from, String pass, String[] to, String subject, String body) {

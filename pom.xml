@@ -24,7 +24,7 @@
           <manifest>
             <addClasspath>true</addClasspath>
             <classpathPrefix>lib/</classpathPrefix>
-            <mainClass>org.newywi.notifier.core.notmain</mainClass>
+            <mainClass>org.newywi.notifier.core.Main</mainClass>
           </manifest>
         </archive>
       </configuration>

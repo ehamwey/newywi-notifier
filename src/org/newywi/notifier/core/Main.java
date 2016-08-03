@@ -1,3 +1,4 @@
+package org.newywi.notifier.core;
 import java.util.*;
 
 
